@@ -289,22 +289,22 @@ main {
   }
   /* ================== hero section ========== */
   #hero{
-    height: 90vh;
+    height: 100vh;
     background-color: #000;
   }
   .image__one{
     display: none !important;
   }
   .image__two {
-    height: 650px !important;
+    height: 600px !important;
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 50px;
     /* top: 90px; */
     right: -10px;
   }
   .image__two img {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
   }
   .inner_image-text h2{
     font-size: 2rem;
@@ -326,17 +326,16 @@ main {
     position: relative;
     top: 20px;
   }
+  
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
+ 
     .inner_image-text h2{
         font-size: 2.9rem !important;
       }
-      .image__two{
-        margin-top: 30px;
-      }
+      
 }
 
 @media screen and (max-width: 576px) {
@@ -348,6 +347,32 @@ main {
   }
   .inner__image-description , .onlineBtn2 {
     display: none;
+  }
+
+  .bgImage{
+    background: url("./assets/mobile-view.jpg") no-repeat  center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    top: -50px;
+  }
+  .bgImage h2 {
+    position: absolute;
+    top: 15%;
+    left: 110px;
+    font-weight: normal;
+    color: #000;
+  }
+  .anotherSection {
+    padding: 0px;
+    position: relative;
+  }
+  .anotherBtn{
+    position: absolute;
+    top: -80px;
+    left: 20%;
   }
 }
 
